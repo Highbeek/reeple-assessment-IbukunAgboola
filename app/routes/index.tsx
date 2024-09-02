@@ -1,7 +1,7 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import BottomTabBarNavigator from './AppNavigator';
-import WalletStack from '../screens/wallet';
+import WalletStack from '../screens/finance';
 import WelcomeScreen from '../screens/auth/WelcomeScreen';
 
 const Stack = createNativeStackNavigator();

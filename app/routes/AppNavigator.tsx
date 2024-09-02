@@ -4,10 +4,10 @@ import {Image, Text, View} from 'react-native';
 import {s} from 'react-native-size-matters';
 import {wallet, history, exchange, settings, x} from '../assets/icons';
 import {MainNavParamList} from '../types';
-import WalletScreen from '../screens/wallet/WalletScreen';
 import ExchangeScreen from '../screens/exchange/ExchangeScreen';
 
 import SettingsScreen from '../screens/settings/SettingsScreen';
+import FinanceNewsScreen from '../screens/finance/FinanceNewsScreen';
 
 const MainNav = createBottomTabNavigator<MainNavParamList>();
 
@@ -38,7 +38,7 @@ const TabBarIcon = ({focused, icon}: {focused: boolean; icon: any}) => (
 const BottomNavigator = () => {
   return (
     <MainNav.Navigator
-      initialRouteName="WalletTab"
+      initialRouteName="ExchangeTab"
       screenOptions={{
         tabBarStyle: {
           flexDirection: 'row',
@@ -51,30 +51,17 @@ const BottomNavigator = () => {
         headerShown: false,
       }}>
       <MainNav.Screen
-        name="WalletTab"
-        component={WalletScreen}
+        name="FinanceTab"
+        component={FinanceNewsScreen}
         options={{
           tabBarLabel: ({focused}) => (
-            <TabBarLabel label="Wallet" focused={focused} />
+            <TabBarLabel label="Finance" focused={focused} />
           ),
           tabBarIcon: ({focused}) => (
             <TabBarIcon focused={focused} icon={wallet} />
           ),
         }}
       />
-
-      {/* <MainNav.Screen
-        name="HistoryTab"
-        component={HistoryScreen}
-        options={{
-          tabBarLabel: ({focused}) => (
-            <TabBarLabel label="History" focused={focused} />
-          ),
-          tabBarIcon: ({focused}) => (
-            <TabBarIcon focused={focused} icon={history} />
-          ),
-        }}
-      /> */}
 
       <MainNav.Screen
         name="ExchangeTab"

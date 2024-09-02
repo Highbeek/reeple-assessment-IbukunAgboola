@@ -1,4 +1,12 @@
-import {StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  Image,
+  KeyboardAvoidingView,
+  Platform,
+} from 'react-native';
 import React, {useState, ReactNode} from 'react';
 import ExchangeCurrency from '../../components/ExchangeCurrency';
 import CurrentRates from '../../components/CurrentRates';
@@ -21,11 +29,14 @@ const tabItems: TabItem[] = [
   },
 ];
 
-const ExchnageScreen = () => {
+const ExchangeScreen = () => {
   const [activeTab, setActiveTab] = useState<number>(0);
 
   return (
-    <View style={styles.container}>
+    <KeyboardAvoidingView
+      style={styles.container}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      keyboardVerticalOffset={Platform.select({ios: 60, android: 80})}>
       <View style={styles.header}>
         <Image source={x} style={styles.icon} />
         <Text style={styles.welcomeText}>Welcome Back</Text>
@@ -47,11 +58,11 @@ const ExchnageScreen = () => {
         ))}
       </View>
       {tabItems[activeTab].content}
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 
-export default ExchnageScreen;
+export default ExchangeScreen;
 
 const styles = StyleSheet.create({
   container: {
