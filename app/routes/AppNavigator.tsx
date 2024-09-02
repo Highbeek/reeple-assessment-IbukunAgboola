@@ -6,7 +6,7 @@ import {wallet, history, exchange, settings, x} from '../assets/icons';
 import {MainNavParamList} from '../types';
 import WalletScreen from '../screens/wallet/WalletScreen';
 import ExchangeScreen from '../screens/exchange/ExchangeScreen';
-import HistoryScreen from '../screens/history/HistoryScreen';
+
 import SettingsScreen from '../screens/settings/SettingsScreen';
 
 const MainNav = createBottomTabNavigator<MainNavParamList>();
@@ -14,8 +14,8 @@ const MainNav = createBottomTabNavigator<MainNavParamList>();
 const TabBarLabel = ({focused, label}: {focused: boolean; label: string}) => (
   <Text
     style={{
-      fontFamily: focused ? 'Lato-Bold' : 'Lato-Regular',
-      color: focused ? '#000' : '#ABAAAA',
+      fontFamily: focused ? 'Trap-Bold' : 'Trap-Regular',
+      color: focused ? '#061237' : '#ABAAAA',
       fontWeight: focused ? '600' : '400',
       fontSize: s(12),
       marginTop: s(20),
@@ -30,7 +30,7 @@ const TabBarIcon = ({focused, icon}: {focused: boolean; icon: any}) => (
     style={{
       width: 24,
       height: 24,
-      tintColor: focused ? '#000' : '#ABAAAA',
+      tintColor: focused ? '##061237' : '#ABAAAA',
     }}
   />
 );
@@ -63,7 +63,7 @@ const BottomNavigator = () => {
         }}
       />
 
-      <MainNav.Screen
+      {/* <MainNav.Screen
         name="HistoryTab"
         component={HistoryScreen}
         options={{
@@ -74,7 +74,7 @@ const BottomNavigator = () => {
             <TabBarIcon focused={focused} icon={history} />
           ),
         }}
-      />
+      /> */}
 
       <MainNav.Screen
         name="ExchangeTab"

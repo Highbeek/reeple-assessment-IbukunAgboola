@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/trap/Trap-Black.otf",
+      "sha1": "951b6b004fd26e31654d5ba3e84eb1c9e90dd82f"
+    },
+    {
+      "path": "app/assets/fonts/trap/Trap-Bold.otf",
+      "sha1": "738305dfffe8b5bd2afb08867b7a719f3af3f8da"
+    },
+    {
+      "path": "app/assets/fonts/trap/Trap-ExtraBold.otf",
+      "sha1": "ace753ce995576a60ba217f164b12799cf74fa2c"
+    },
+    {
+      "path": "app/assets/fonts/trap/Trap-Light.otf",
+      "sha1": "2bda538302d7255f0105c7794facb5c35f03c7fa"
+    },
+    {
+      "path": "app/assets/fonts/trap/Trap-Medium.otf",
+      "sha1": "8adb769a88ed1f3d2d2cf450ea65237d617b007b"
+    },
+    {
+      "path": "app/assets/fonts/trap/Trap-Regular.otf",
+      "sha1": "af8b431df95c4a0c2e064ccc5f07f33591e1828b"
+    },
+    {
+      "path": "app/assets/fonts/trap/Trap-SemiBold.otf",
+      "sha1": "4d1ff98c321263f92522b3a4ed145183e568313a"
+    }
+  ]
+}

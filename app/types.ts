@@ -7,3 +7,8 @@ export type MainNavParamList = {
   SettingsTab: undefined;
   WalletTab: undefined;
 };
+
+export interface CurrencyOption {
+  label: string;
+  value: string;
+}

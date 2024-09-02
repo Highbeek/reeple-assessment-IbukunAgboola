@@ -15,6 +15,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-XChangePro-XChangeProTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-XChangePro-XChangeProTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8759E14DB7F14542B001A7FD /* Trap-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1EBABB018EA45528701B9AE /* Trap-Black.otf */; };
+		EC1BDAA498D34F5AB9943F1D /* Trap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B613F994EB64BF9887303D4 /* Trap-Bold.otf */; };
+		25EC7CC7544547198E0F4E11 /* Trap-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A06259B8F2124BE4B325C63C /* Trap-ExtraBold.otf */; };
+		6E3D4613B8304EA4843671F3 /* Trap-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB2F1ABF2EA44AFDBFBAA0C7 /* Trap-Light.otf */; };
+		90CD66373D3A44319B8FD32E /* Trap-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5E414EB182C40D4A36DDA30 /* Trap-Medium.otf */; };
+		9481AE28B2374BDBB51C9CAE /* Trap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F8E4ABA8B5A14AC4A7EF921D /* Trap-Regular.otf */; };
+		B99816EE6A1E4FCFB4A279F1 /* Trap-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABEF500B35844915BF4860AE /* Trap-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-XChangePro-XChangeProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XChangePro-XChangeProTests.release.xcconfig"; path = "Target Support Files/Pods-XChangePro-XChangeProTests/Pods-XChangePro-XChangeProTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4D92B0917054111BD7E29AD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = XChangePro/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1EBABB018EA45528701B9AE /* Trap-Black.otf */ = {isa = PBXFileReference; name = "Trap-Black.otf"; path = "../app/assets/fonts/trap/Trap-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B613F994EB64BF9887303D4 /* Trap-Bold.otf */ = {isa = PBXFileReference; name = "Trap-Bold.otf"; path = "../app/assets/fonts/trap/Trap-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A06259B8F2124BE4B325C63C /* Trap-ExtraBold.otf */ = {isa = PBXFileReference; name = "Trap-ExtraBold.otf"; path = "../app/assets/fonts/trap/Trap-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB2F1ABF2EA44AFDBFBAA0C7 /* Trap-Light.otf */ = {isa = PBXFileReference; name = "Trap-Light.otf"; path = "../app/assets/fonts/trap/Trap-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5E414EB182C40D4A36DDA30 /* Trap-Medium.otf */ = {isa = PBXFileReference; name = "Trap-Medium.otf"; path = "../app/assets/fonts/trap/Trap-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8E4ABA8B5A14AC4A7EF921D /* Trap-Regular.otf */ = {isa = PBXFileReference; name = "Trap-Regular.otf"; path = "../app/assets/fonts/trap/Trap-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABEF500B35844915BF4860AE /* Trap-SemiBold.otf */ = {isa = PBXFileReference; name = "Trap-SemiBold.otf"; path = "../app/assets/fonts/trap/Trap-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8961891FA10E471FB56221C5 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,6 +167,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		8961891FA10E471FB56221C5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F1EBABB018EA45528701B9AE /* Trap-Black.otf */,
+				8B613F994EB64BF9887303D4 /* Trap-Bold.otf */,
+				A06259B8F2124BE4B325C63C /* Trap-ExtraBold.otf */,
+				DB2F1ABF2EA44AFDBFBAA0C7 /* Trap-Light.otf */,
+				D5E414EB182C40D4A36DDA30 /* Trap-Medium.otf */,
+				F8E4ABA8B5A14AC4A7EF921D /* Trap-Regular.otf */,
+				ABEF500B35844915BF4860AE /* Trap-SemiBold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -249,6 +279,13 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				126D404E87B02E5670271703 /* PrivacyInfo.xcprivacy in Resources */,
+				8759E14DB7F14542B001A7FD /* Trap-Black.otf in Resources */,
+				EC1BDAA498D34F5AB9943F1D /* Trap-Bold.otf in Resources */,
+				25EC7CC7544547198E0F4E11 /* Trap-ExtraBold.otf in Resources */,
+				6E3D4613B8304EA4843671F3 /* Trap-Light.otf in Resources */,
+				90CD66373D3A44319B8FD32E /* Trap-Medium.otf in Resources */,
+				9481AE28B2374BDBB51C9CAE /* Trap-Regular.otf in Resources */,
+				B99816EE6A1E4FCFB4A279F1 /* Trap-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

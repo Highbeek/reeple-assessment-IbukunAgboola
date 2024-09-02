@@ -12,17 +12,17 @@ const AppNavigator: React.FC<any> = () => {
       screenOptions={{
         headerShown: false,
       }}
-      initialRouteName="welcome">
+      initialRouteName="Welcome">
       <Stack.Screen
-        name="TabScreens"
-        component={BottomTabBarNavigator}
+        name="Welcome"
+        component={WelcomeScreen}
         options={{
           gestureEnabled: false,
         }}
       />
       <Stack.Screen
-        name="Welcome"
-        component={WelcomeScreen}
+        name="TabScreens"
+        component={BottomTabBarNavigator}
         options={{
           gestureEnabled: false,
         }}
