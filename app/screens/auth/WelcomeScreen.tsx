@@ -9,7 +9,8 @@ const WelcomeScreen = ({navigation}: any) => {
   return (
     <View style={styles.container}>
       <LottieView source={logo} autoPlay loop style={styles.logo} />
-      <Text style={styles.title}>Welcome to Our Currency Exchange</Text>
+      <Text style={styles.title}>XchangePro</Text>
+      <Text style={styles.title}>Welcome to Your Currency Exchange App</Text>
       <Text style={styles.description}>
         Exchange currencies quickly and securely with our platform. Enjoy the
         best rates and seamless transactions!
